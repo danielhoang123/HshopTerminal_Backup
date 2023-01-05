@@ -1,0 +1,27 @@
+.Tuy_chinh-//-3-//-3-//-0-//-0-//-0
+.Wifi-//-8-//-3-//-0-//-0-//-0
+1 Relay Modbus RTU RS485-//-3-//-3-//-0-//-0-//-0-//-*ket noi nguon 7-24V - ket noi USB485-//-// bat relay-//-//$FF$05$00$00$FF$00$99$E4-//--//-// tat relay-//-//$FF$05$00$00$00$00$D8$14
+Bluetooth_AT09-//-3-//-3-//-0-//-0-//-3-//-AT-//-AT+NAMEHSHOP-AT09
+Bluetooth_HC05-//-3-//-3-//-0-//-0-//-3-//-AT-//-AT+UART-//-AT+NAME=HSHOP-HC05-//-AT+POLAR=1,0-//--//-// giu nut r cap nguon - go AT+UART?-//-// ket noi lai r chon baud fix-//-// AT+UART=9600,1,0
+Bluetooth_HC06-//-3-//-3-//-0-//-0-//-0-//-AT-//-AT+NAMEHSHOP-HC06
+Bluetooth_HC12-//-3-//-3-//-0-//-0-//-3-//-AT-//-AT+RX-//--//-// noi chan Set voi GND
+Bluetooth_HM10-//-3-//-3-//-0-//-0-//-3-//-AT-//-AT+NAMEHSHOP-M10
+Bluetooth_JDY33-//-3-//-3-//-0-//-0-//-3-//-AT-//-AT+NAMEJDY_Hshopvn-//-AT+NAMBJDY_Hshopvn_BLE-//-AT+NAME
+Bluetooth_JDY_24M-//-3-//-3-//-0-//-0-//-3-//-AT-//-AT+NAMEHshop_JDY24M
+Bluetooth_MKL_M15-//-3-//-3-//-0-//-0-//-3-//-AT-//-AT+NAMEHshop_MKL-M15
+Esp_8266_01S-//-8-//-3-//-0-//-0-//-3-//-AT-//-AT+GMR-//-AT+CWMODE=3-//-AT+CWLAP
+Lora-E5_Rx-//-3-//-3-//-0-//-0-//-3-//-AT-//-AT+MODE=TEST-//-AT+TEST=RXLRPKT-//--//-// AT+FDEFAULT-//-// LENH TREN DE RESET LORA
+Lora-E5_Tx-//-3-//-3-//-0-//-0-//-3-//-AT-//-AT+MODE=TEST-//-AT+TEST=TXLRPKT,"11 22 33"-//--//-// AT+FDEFAULT-//-// LENH TREN DE RESET LORA
+Modbus RTU 8CH-//-3-//-3-//-0-//-0-//-0-//-//Dao trang thai relay-//-//$01$05$00$FF$5A$00$C7$5A-//--//-//trang web cua nha sx-//-//https://www.waveshare.com/wiki/Protocol_Manual_of_Modbus_RTU_Relay
+PZEM-004 AC Hex Commands-//-3-//-3-//-0-//-0-//-0-//-//B1: Set dia chi thong qua dong lenh:-//-//$B4$C0$A8$01$01$00$1E-//--//-//B2: gui lenh de doc gia tri dien ap-//-//$B0$C0$A8$01$01$00$1A-//-//(SE TRA VE DU LIEU DAU/DUOI A0...88)-//--//-//B3: gui lenh de doc gia tri dong dien-//-//$B1$C0$A8$01$01$00$1B-//-////(SE TRA VE DU LIEU DAU/DUOI A1...D2)
+RTL8720DN BW16-//-6-//-3-//-0-//-0-//-3-//-//Gui lenh AT check hoi dap cua KIT-//-AT-//-//Gui lenh AT quet wifi-//-ATWS-//-//baud: 38400
+SIM7600G-//-8-//-3-//-0-//-0-//-3-//-AT-//-AT+CLIP=1-//-AT+CNMI=2,2-//-AT+CMGF=1-//-AT+CUSD=1-//-AT+GMR-//-ATD*101#;-//-AT+SIMEI?-//--//--//-// gan jumper noi B vs C (SIM7600 vs CP2102)-//-// ket noi day vs USB to UART-//-// nhan giu nut PWRKEY den khi den NET sang
+Sim_800A-//-3-//-3-//-0-//-0-//-3-//-AT-//-AT+CLIP=1-//-AT+CNMI=2,2-//-AT+CMGF=1-//-AT+CUSD=1-//-AT+GMR-//-AT+GSN-//-ATD*101#;
+Sim_800A_Call-//-3-//-3-//-0-//-0-//-3-//-AT-//-AT+CNMI=2,2-//-AT+CUSD=1-//-AT+CMGF=1-//-AT+CSCS="GSM"-//-ATD0762534798;-//--//-// ATH : Huy cuoc goi-//-// AT+CMGS="0762534798" : sdt gui tin nhan-//-// Hello$1A  : Noi dung tin nhan
+Sim_800DS_Call-//-3-//-3-//-0-//-0-//-3-//-AT-//-ATD0762534798;-//--//-// Go ATH de huy cuoc goi
+Sim_800DS_SMS-//-3-//-3-//-0-//-0-//-3-//-AT-//-AT+CMGF=1-//-AT+CSCS="GSM"-//--//-// Sau khi goi lenh nay, doi ki tu '>'-//-AT+CMGS="0762534798"-//--//-// Gui text, $1A la ki tu 0x1A trong ASCII-//-Hshop test sim$1A
+Sim_808-//-3-//-3-//-0-//-0-//-3-//-AT-//-AT+CNMI=2,2-//-AT+CMGF=1-//-AT+CUSD=1-//-AT+GSN-//-AT+GMR-//-ATD*101#;-//-AT +CGNSPWR =1-//-ART + CGNSINF-//-AT + CGNSURC =1 -//--//-// AT + CGNSURC = 1   :bat GPS-//-// AT + CGNSURC = 0   : tat GPS
+Sim_868-//-3-//-3-//-0-//-0-//-3-//-AT-//-AT+CLIP=1-//-AT+CNMI=2,2-//-AT+CMGF=1-//-AT+CUSD=1-//-AT+GMR-//-ATD*101#;-//-AT+BTPOWER=1 -//-// BAT BLUETOOTH-//-AT+BTSCAN=1,5-//-// 1:BAT DAU QUET,5 THOI GIAN QUET(CO THE TU THAY DOI THOI GIAN QUET)-//-AT+BTUNPAIR=0-//-// XOA GHEP NOI-//-AT+BTPAIR=X,Y-//-// X,Y; SO KE BEN LIST BLUETOOTH SAU KHI SCAN-//-AT+BTPAIR=1,1-//-// XAC NHAN PAIR-//-AT+BTGETPROF=1-//-// KIEM TRA CAC DICH VU DA ENABLE TREN DT-//--//-AT+CGNSPWR=1-//-// BAT GPS-//-AT+CGNSURC=1-//-// TU DONG GUI TOA DO-//-AT+CGNSINF-//-//YEU CAU GUI TOA DO
+Sim_A9G_Call-//-6-//-3-//-0-//-0-//-3-//-AT-//-AT+GMR-//-AT+GPS=1-//-AT+GPSRD=1-//--//-// Cap nguon 5v (VUSB), GND-//-// Giao tiep TX1, RX1-//-// Gui AT cho den khi ket noi OK-//--//-// Lenh goi-//-ATD0908449460;-//--//-// Go ATH de huy
+Sim_A9G_GPS-//-3-//-3-//-0-//-0-//-3-//-// Cap nguon 5v (VUSB), GND-//-// Giao tiep TX1, RX1-//-// Gui lenh AT cho den khi giao tiep OK-//--//-AT+GMR-//-AT+GPS=1-//-AT+GPSRD=1
+Sim_A9G_SMS-//-3-//-3-//-0-//-0-//-3-//-// Cap nguon 5v (VUSB), GND-//-// Giao tiep TX1, RX1-//-// Gui lenh AT cho den khi giao tiep OK-//--//-AT+CMGF=1-//-AT+CMGS="0978875066"-//-HSHOP_TEXT$1A
